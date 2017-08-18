@@ -1,2 +1,2 @@
-# JasperBot
-A Slack Bot using Outgoing Webhooks.  
+# JeremyahBot
+A Slack Bot using Outgoing Webhooks.  Snark turned up to 11.
