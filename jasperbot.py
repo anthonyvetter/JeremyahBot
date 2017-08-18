@@ -41,7 +41,7 @@ phrase_list = ['my bad',
 def jasperbot():
     text = request.form.get('text', '')
     if 'jasper' in text.lower():
-        return jsonify(text=phrase_list[randint(0, len(my_list-1))])
+        return jsonify(text=phrase_list[randint(0, len(phrase_list-1))])
     return Response(), 200
 
 if __name__ == '__main__':
