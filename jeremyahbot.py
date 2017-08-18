@@ -5,7 +5,7 @@ app = Flask(__name__)
 phrase_list = ['oh, but the breadsticks'
               ]
 
-@app.route('/jasperbot', methods=['POST'])
+@app.route('/jeremyahbot', methods=['POST'])
 def jeremyahbot():
     text = request.form.get('text', '')
     if 'jeremyah' in text.lower():
